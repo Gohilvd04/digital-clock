@@ -25,10 +25,6 @@ function updateClock() {
     second.innerText=s;
     amPm, (innerText=ampm);
 
-    console.log(hour)
-    console.log(minute)
-    console.log(second)
-
     setTimeout(()=>{
         updateClock()
     },1000)
